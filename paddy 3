@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+    int n;
+    printf("Enter total students");
+    scanf("%d",&n);
+    int totalmarks[n];
+    int i,large,large2;
+    for(i=0;i<n;i++)
+    {
+       scanf("%d",&totalmarks[i]);
+    }
+    large=totalmarks[0];
+    for(i=0;i<n;i++)
+    {
